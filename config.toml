@@ -1,0 +1,66 @@
+baseurl = "https://example.org/"
+title = "Bubblegum Factory"
+theme = "hugo-creative-portfolio-theme"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "sea"
+  description = "Hi, I am Sneha Nanavati - welcome to my website!"
+  copyright = "&copy;2020 Sneha Nanavati"
+  sidebarAbout = [
+    "Hi, I am Sneha Nanavati. I am currently a Masters student at IIIT Hyderabad. Check out my work on music, movies, book lists, art experiments, local adventures and football rambles here. I like examining and participating in research at the intersection of technology and civil society, in confluence with social science. I am interested in User Experience Research, Information Communication Technology, Human Computer Interaction and Future of Work. Check out some fun projects and posts. Thank you for your time and attention. :) "
+  ]
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "sneha.nanavati@research.iiit.ac.in"
+
+    # Optional Matomo analytics (formerly piwik)
+      # [params.analytics.matomo]
+      #  URL = "https://stats.example.com"
+      #  ID = "42"
+      #  # Track all subdomains with "*.example.com" (Optional)
+      #  domain = "www.example.com"
+      #  # Optional integrity check hash
+      #  hash = ""
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = "portfolio/"
+  home = true
+
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
+
+  [params.social]
+  
+  email         = "sneha.nanavati@research.iiit.ac.in"
+  github        = "https://github.com/nanavatisneha"
+  spotify	= "https://open.spotify.com/user/nanavatisneha?si=1pW8A5nLT3WI90t7mWGTrw"
+  instagram     = "https://www.instagram.com/bubblegum.factory/"
+  pocket	= "https://getpocket.com/@a82p8T5eA81d1d75e8gcH2fge7d9A501aM0Dbze02ai2e2Z0x9b91k0ZE13nTdft"
+  goodreads	= "https://www.goodreads.com/user/show/47323133-sneha-nanavati"
+  IMDB 		= "https://www.imdb.com/user/ur91414957/?ref_=nb_usr_prof_0"
+  youtube       = "https://www.youtube.com/channel/UCD1aPJz7jHQe6b5hx9wDS4A"
+  linkedin      = "https://www.linkedin.com/in/sneha-nanavati-iiit"
